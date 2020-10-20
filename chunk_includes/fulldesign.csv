@@ -1,0 +1,393 @@
+order,list,item,condition,target_notional_num,competitor_num,ambiguity,target,competitor,target ID,targetPos,compPos,destPos,locPhrase,sentence,firstDisplay,secondDisplay,expTrials
+1,1,P1,,,,,,,,1,,5,,The roller skate next to the suitcase is on number 1.,P1_1.jpg,P1_2.jpg,N
+1,2,P1,,,,,,,,1,,5,,The roller skate next to the suitcase is on number 1.,P1_1.jpg,P1_2.jpg,N
+1,3,P1,,,,,,,,1,,5,,The roller skate next to the suitcase is on number 1.,P1_1.jpg,P1_2.jpg,N
+1,4,P1,,,,,,,,1,,5,,The roller skate next to the suitcase is on number 1.,P1_1.jpg,P1_2.jpg,N
+2,1,P3,,,,,,,,3,,4,,The toaster above the sausage is on number 3.,P3_1.jpg,P3_2.jpg,N
+2,2,P3,,,,,,,,3,,4,,The toaster above the sausage is on number 3.,P3_1.jpg,P3_2.jpg,N
+2,3,P3,,,,,,,,3,,4,,The toaster above the sausage is on number 3.,P3_1.jpg,P3_2.jpg,N
+2,4,P3,,,,,,,,3,,4,,The toaster above the sausage is on number 3.,P3_1.jpg,P3_2.jpg,N
+3,1,P2,,,,,,,,2,,1,,The monkey next to the grape is on number 2.,P2_1.jpg,P2_2.jpg,N
+3,2,P2,,,,,,,,2,,1,,The monkey next to the grape is on number 2.,P2_1.jpg,P2_2.jpg,N
+3,3,P2,,,,,,,,2,,1,,The monkey next to the grape is on number 2.,P2_1.jpg,P2_2.jpg,N
+3,4,P2,,,,,,,,2,,1,,The monkey next to the grape is on number 2.,P2_1.jpg,P2_2.jpg,N
+4,1,P4,,,,,,,,1,,3,,The panther above the coat and the piano is on number 1.,P4_1.jpg,P4_2.jpg,N
+4,2,P4,,,,,,,,1,,3,,The panther above the coat and the piano is on number 1.,P4_1.jpg,P4_2.jpg,N
+4,3,P4,,,,,,,,1,,3,,The panther above the coat and the piano is on number 1.,P4_1.jpg,P4_2.jpg,N
+4,4,P4,,,,,,,,1,,3,,The panther above the coat and the piano is on number 1.,P4_1.jpg,P4_2.jpg,N
+5,1,P5,,,,,,,,4,,2,,The tractor below the wheelbarrow is on number 4.,P5_1.jpg,P5_2.jpg,N
+5,2,P5,,,,,,,,4,,2,,The pushskater below the wheelbarrow is on number 4.,P5_1.jpg,P5_2.jpg,N
+5,3,P5,,,,,,,,4,,2,,The pushskater below the wheelbarrow is on number 4.,P5_1.jpg,P5_2.jpg,N
+5,4,P5,,,,,,,,4,,2,,The pushskater below the wheelbarrow is on number 4.,P5_1.jpg,P5_2.jpg,N
+6,1,P6,,,,,,,,2,,3,,The cabbage below the pipe is on numnber 5.,P6_1.jpg,P6_2.jpg,N
+6,2,P6,,,,,,,,2,,3,,The cabbage below the pipe is on numnber 5.,P6_1.jpg,P6_2.jpg,N
+6,3,P6,,,,,,,,2,,3,,The cabbage below the pipe is on numnber 5.,P6_1.jpg,P6_2.jpg,N
+6,4,P6,,,,,,,,2,,3,,The cabbage below the pipe is on numnber 5.,P6_1.jpg,P6_2.jpg,N
+7,1,X01,9,,,,,,,6,,5,below,"The shell is on number 6, and it is on the row below the basil and the oven.",X01_9_1.jpg,X01_9_2.jpg,N
+7,2,X01,9,,,,,,,6,,5,below,"The shell is on number 6, and it is on the row below the basil and the oven.",X01_9_1.jpg,X01_9_2.jpg,N
+7,3,X01,9,,,,,,,6,,5,below,"The shell is on number 6, and it is on the row below the basil and the oven.",X01_9_1.jpg,X01_9_2.jpg,N
+7,4,X01,9,,,,,,,6,,5,below,"The shell is on number 6, and it is on the row below the basil and the oven.",X01_9_1.jpg,X01_9_2.jpg,N
+8,1,1,1,1,1,unambiguous,headphones,glove,7,5,6,3,next to,The headphones next to the glove are on Number 5.,E01_1_1.jpg,E01_1_2.jpg,Y
+8,2,1,2,1,2,ambiguous,headphones,gloves,7,5,6,3,next to,The headphones next to the gloves are on Number 5.,E01_2_1.jpg,E01_2_2.jpg,Y
+8,3,1,3,2,1,unambiguous,headphones,glove,7,5,6,3,next to,The headphones next to the glove are on Number 5.,E01_3_1.jpg,E01_3_2.jpg,Y
+8,4,1,4,2,2,ambiguous,headphones,gloves,7,5,6,3,next to,The headphones next to the gloves are on Number 5.,E01_4_1.jpg,E01_4_2.jpg,Y
+9,1,X03,9,,,,,,,5,,3,,On number 5 there is a cactus.,X03_9_1.jpg,X03_9_2.jpg,N
+9,2,X03,9,,,,,,,5,,3,,On number 5 there is a cactus.,X03_9_1.jpg,X03_9_2.jpg,N
+9,3,X03,9,,,,,,,5,,3,,On number 5 there is a cactus.,X03_9_1.jpg,X03_9_2.jpg,N
+9,4,X03,9,,,,,,,5,,3,,On number 5 there is a cactus.,X03_9_1.jpg,X03_9_2.jpg,N
+10,1,X02,9,,,,,,,3,,4,,The keyboard is on number 3.,X02_9_1.jpg,X02_9_2.jpg,N
+10,2,X02,9,,,,,,,3,,4,,The keyboard is on number 3.,X02_9_1.jpg,X02_9_2.jpg,N
+10,3,X02,9,,,,,,,3,,4,,The keyboard is on number 3.,X02_9_1.jpg,X02_9_2.jpg,N
+10,4,X02,9,,,,,,,3,,4,,The keyboard is on number 3.,X02_9_1.jpg,X02_9_2.jpg,N
+11,1,2,2,1,2,ambiguous,jeans,sofas,11,2,5,3,above,The jeans above the sofas are on Number 2.,E02_2_1.jpg,E02_2_2.jpg,Y
+11,2,2,3,2,1,unambiguous,jeans,sofa,11,2,5,3,above,The jeans above the sofa are on Number 2.,E02_3_1.jpg,E02_3_2.jpg,Y
+11,3,2,4,2,2,ambiguous,jeans,sofas,11,2,5,3,above,The jeans above the sofas are on Number 2.,E02_4_1.jpg,E02_4_2.jpg,Y
+11,4,2,1,1,1,unambiguous,jeans,sofa,11,2,5,3,above,The jeans above the sofa are on Number 2.,E02_1_1.jpg,E02_1_2.jpg,Y
+12,1,X13,9,,,,,,,3,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,2,X13,9,,,,,,,3,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,3,X13,9,,,,,,,3,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,4,X13,9,,,,,,,3,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+13,1,X27,9,,,,,,,6,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+13,2,X27,9,,,,,,,6,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+13,3,X27,9,,,,,,,6,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+13,4,X27,9,,,,,,,6,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
+15,1,3,3,2,1,unambiguous,tights,melon,6,6,3,2,below,The tights below the melon are on Number 6.,E03_3_1.jpg,E03_3_2.jpg,Y
+15,2,3,4,2,2,ambiguous,tights,melons,6,6,3,2,below,The tights below the melons are on Number 6.,E03_4_1.jpg,E03_4_2.jpg,Y
+15,3,3,1,1,1,unambiguous,tights,melon,6,6,3,2,below,The tights below the melon are on Number 6.,E03_1_1.jpg,E03_1_2.jpg,Y
+15,4,3,2,1,2,ambiguous,tights,melons,6,6,3,2,below,The tights below the melons are on Number 6.,E03_2_1.jpg,E03_2_2.jpg,Y
+16,1,X08,9,,,,,,,2,,5,above,"The spoon is on number 2, on the row above the sheep.",X08_9_1.jpg,X08_9_2.jpg,N
+16,2,X08,9,,,,,,,2,,5,above,"The spoon is on number 2, on the row above the sheep.",X08_9_1.jpg,X08_9_2.jpg,N
+16,3,X08,9,,,,,,,2,,5,above,"The spoon is on number 2, on the row above the sheep.",X08_9_1.jpg,X08_9_2.jpg,N
+16,4,X08,9,,,,,,,2,,5,above,"The spoon is on number 2, on the row above the sheep.",X08_9_1.jpg,X08_9_2.jpg,N
+17,1,X09,9,,,,,,,6,,2,,The delivery man is on the same line of the hand.,X09_9_1.jpg,X09_9_2.jpg,N
+17,2,X09,9,,,,,,,6,,2,,The delivery man is on the same line of the hand.,X09_9_1.jpg,X09_9_2.jpg,N
+17,3,X09,9,,,,,,,6,,2,,The delivery man is on the same line of the hand.,X09_9_1.jpg,X09_9_2.jpg,N
+17,4,X09,9,,,,,,,6,,2,,The delivery man is on the same line of the hand.,X09_9_1.jpg,X09_9_2.jpg,N
+18,1,4,4,2,2,ambiguous,glasses,plates,4,3,5,2,above,The glasses above the plates are on Number 3.,E04_4_1.jpg,E04_4_2.jpg,Y
+18,2,4,1,1,1,unambiguous,glasses,plate,4,3,5,2,above,The glasses above the plate are on Number 3.,E04_1_1.jpg,E04_1_2.jpg,Y
+18,3,4,2,1,2,ambiguous,glasses,plates,4,3,5,2,above,The glasses above the plates are on Number 3.,E04_2_1.jpg,E04_2_2.jpg,Y
+18,4,4,3,2,1,unambiguous,glasses,plate,4,3,5,2,above,The glasses above the plate are on Number 3.,E04_3_1.jpg,E04_3_2.jpg,Y
+19,1,X10,9,,,,,,,4,,5,,"The doll is on number 6, and it is on the same line of the electrician.",X10_9_1.jpg,X10_9_2.jpg,N
+19,2,X10,9,,,,,,,4,,5,,"The doll is on number 6, and it is on the same line of the electrician.",X10_9_1.jpg,X10_9_2.jpg,N
+19,3,X10,9,,,,,,,4,,5,,"The doll is on number 6, and it is on the same line of the electrician.",X10_9_1.jpg,X10_9_2.jpg,N
+19,4,X10,9,,,,,,,4,,5,,"The doll is on number 6, and it is on the same line of the electrician.",X10_9_1.jpg,X10_9_2.jpg,N
+22,1,X19,9,,,,,,,5,,3,next to,The turtle is on number 5 and it is next to the gardener.,X19_9_1.jpg,X19_9_2.jpg,N
+22,2,X19,9,,,,,,,5,,3,next to,The turtle is on number 5 and it is next to the gardener.,X19_9_1.jpg,X19_9_2.jpg,N
+22,3,X19,9,,,,,,,5,,3,next to,The turtle is on number 5 and it is next to the gardener.,X19_9_1.jpg,X19_9_2.jpg,N
+22,4,X19,9,,,,,,,5,,3,next to,The turtle is on number 5 and it is next to the gardener.,X19_9_1.jpg,X19_9_2.jpg,N
+24,1,5,3,2,1,unambiguous,binoculars,pen,2,2,5,1,above,The binoculars above the pen are on Number 2.,E05_3_1.jpg,E05_3_2.jpg,Y
+24,2,5,4,2,2,ambiguous,binoculars,pens,2,2,5,1,above,The binoculars above the pens are on Number 2.,E05_4_1.jpg,E05_4_2.jpg,Y
+24,3,5,1,1,1,unambiguous,binoculars,pen,2,2,5,1,above,The binoculars above the pen are on Number 2.,E05_1_1.jpg,E05_1_2.jpg,Y
+24,4,5,2,1,2,ambiguous,binoculars,pens,2,2,5,1,above,The binoculars above the pens are on Number 2.,E05_2_1.jpg,E05_2_2.jpg,Y
+25,1,X51,9,,,,,,,6,,5,,On number 6 there is an eagle.,X51_9_1.jpg,X51_9_2.jpg,N
+25,2,X51,9,,,,,,,6,,5,,On number 6 there is an eagle.,X51_9_1.jpg,X51_9_2.jpg,N
+25,3,X51,9,,,,,,,6,,5,,On number 6 there is an eagle.,X51_9_1.jpg,X51_9_2.jpg,N
+25,4,X51,9,,,,,,,6,,5,,On number 6 there is an eagle.,X51_9_1.jpg,X51_9_2.jpg,N
+26,1,X26,9,,,,,,,3,,5,,On number 3 there is a broom.,X26_9_1.jpg,X26_9_2.jpg,N
+26,2,X26,9,,,,,,,3,,5,,On number 3 there is a broom.,X26_9_1.jpg,X26_9_2.jpg,N
+26,3,X26,9,,,,,,,3,,5,,On number 3 there is a broom.,X26_9_1.jpg,X26_9_2.jpg,N
+26,4,X26,9,,,,,,,3,,5,,On number 3 there is a broom.,X26_9_1.jpg,X26_9_2.jpg,N
+27,1,6,1,1,1,unambiguous,shorts,key,5,3,5,1,above,The shorts above the key are on Number 3.,E06_1_1.jpg,E06_1_2.jpg,Y
+27,2,6,2,1,2,ambiguous,shorts,keys,5,3,5,1,above,The shorts above the keys are on Number 3.,E06_2_1.jpg,E06_2_2.jpg,Y
+27,3,6,3,2,1,unambiguous,shorts,key,5,3,5,1,above,The shorts above the key are on Number 3.,E06_3_1.jpg,E06_3_2.jpg,Y
+27,4,6,4,2,2,ambiguous,shorts,keys,5,3,5,1,above,The shorts above the keys are on Number 3.,E06_4_1.jpg,E06_4_2.jpg,Y
+28,1,X11,9,,,,,,,4,,5,below,"The plant is on number 4, on the row below the crocodile and the lighter.",X11_9_1.jpg,X11_9_2.jpg,N
+28,2,X11,9,,,,,,,4,,5,below,"The plant is on number 4, on the row below the crocodile and the lighter.",X11_9_1.jpg,X11_9_2.jpg,N
+28,3,X11,9,,,,,,,4,,5,below,"The plant is on number 4, on the row below the crocodile and the lighter.",X11_9_1.jpg,X11_9_2.jpg,N
+28,4,X11,9,,,,,,,4,,5,below,"The plant is on number 4, on the row below the crocodile and the lighter.",X11_9_1.jpg,X11_9_2.jpg,N
+29,1,X16,9,,,,,,,5,,6,,There is a croissant on number 5.,X16_9_1.jpg,X16_9_2.jpg,N
+29,2,X16,9,,,,,,,5,,6,,There is a croissant on number 5.,X16_9_1.jpg,X16_9_2.jpg,N
+29,3,X16,9,,,,,,,5,,6,,There is a croissant on number 5.,X16_9_1.jpg,X16_9_2.jpg,N
+29,4,X16,9,,,,,,,5,,6,,There is a croissant on number 5.,X16_9_1.jpg,X16_9_2.jpg,N
+30,1,7,2,1,2,ambiguous,trousers,books,3,4,1,6,below,The trousers below the books are on Number 4.,E07_2_1.jpg,E07_2_2.jpg,Y
+30,2,7,3,2,1,unambiguous,trousers,book,3,4,1,6,below,The trousers below the book are on Number 4.,E07_3_1.jpg,E07_3_2.jpg,Y
+30,3,7,4,2,2,ambiguous,trousers,books,3,4,1,6,below,The trousers below the books are on Number 4.,E07_4_1.jpg,E07_4_2.jpg,Y
+30,4,7,1,1,1,unambiguous,trousers,book,3,4,1,6,below,The trousers below the book are on Number 4.,E07_1_1.jpg,E07_1_2.jpg,Y
+34,1,X40,9,,,,,,,1,,2,above,"There is a swing above the thief, and it is on number 1.",X40_9_1.jpg,X40_9_2.jpg,N
+34,2,X40,9,,,,,,,1,,2,above,"There is a swing above the thief, and it is on number 1.",X40_9_1.jpg,X40_9_2.jpg,N
+34,3,X40,9,,,,,,,1,,2,above,"There is a swing above the thief, and it is on number 1.",X40_9_1.jpg,X40_9_2.jpg,N
+34,4,X40,9,,,,,,,1,,2,above,"There is a swing above the thief, and it is on number 1.",X40_9_1.jpg,X40_9_2.jpg,N
+35,1,X21,9,,,,,,,3,,4,,There is an interphon on number 3.,X21_9_1.jpg,X21_9_2.jpg,N
+35,2,X21,9,,,,,,,3,,4,,There is an interphon on number 3.,X21_9_1.jpg,X21_9_2.jpg,N
+35,3,X21,9,,,,,,,3,,4,,There is an interphon on number 3.,X21_9_1.jpg,X21_9_2.jpg,N
+35,4,X21,9,,,,,,,3,,4,,There is an interphon on number 3.,X21_9_1.jpg,X21_9_2.jpg,N
+36,1,8,4,2,2,ambiguous,tongs,rulers,16,6,3,1,below,The tongs below the rulers are on Number 6.,E08_4_1.jpg,E08_4_2.jpg,
+36,2,8,1,1,1,unambiguous,tongs,ruler,16,6,3,1,below,The tongs below the ruler are on Number 6.,E08_1_1.jpg,E08_1_2.jpg,
+36,3,8,2,1,2,ambiguous,tongs,rulers,16,6,3,1,below,The tongs below the rulers are on Number 6.,E08_2_1.jpg,E08_2_2.jpg,
+36,4,8,3,2,1,unambiguous,tongs,ruler,16,6,3,1,below,The tongs below the ruler are on Number 6.,E08_3_1.jpg,E08_3_2.jpg,
+37,1,X79,9,,,,,,,5,,3,,The envelope is on number 5.,X79_9_1.jpg,X79_9_2.jpg,N
+37,2,X79,9,,,,,,,5,,3,,The envelope is on number 5.,X79_9_1.jpg,X79_9_2.jpg,N
+37,3,X79,9,,,,,,,5,,3,,The envelope is on number 5.,X79_9_1.jpg,X79_9_2.jpg,N
+37,4,X79,9,,,,,,,5,,3,,The envelope is on number 5.,X79_9_1.jpg,X79_9_2.jpg,N
+38,1,X22,9,,,,,,,2,,3,above,"The ladybug is on number 2, and it is on the row above the headphones and the canary.",X22_9_1.jpg,X22_9_2.jpg,N
+38,2,X22,9,,,,,,,2,,3,above,"The ladybug is on number 2, and it is on the row above the headphones and the canary.",X22_9_1.jpg,X22_9_2.jpg,N
+38,3,X22,9,,,,,,,2,,3,above,"The ladybug is on number 2, and it is on the row above the headphones and the canary.",X22_9_1.jpg,X22_9_2.jpg,N
+38,4,X22,9,,,,,,,2,,3,above,"The ladybug is on number 2, and it is on the row above the headphones and the canary.",X22_9_1.jpg,X22_9_2.jpg,N
+39,1,9,3,2,1,unambiguous,earphones,bottle,12,6,3,5,below,The earphones below the bottle are on Number 6.,E09_3_1.jpg,E09_3_2.jpg,Y
+39,2,9,4,2,2,ambiguous,earphones,bottles,12,6,3,5,below,The earphones below the bottles are on Number 6.,E09_4_1.jpg,E09_4_2.jpg,Y
+39,3,9,1,1,1,unambiguous,earphones,bottle,12,6,3,5,below,The earphones below the bottle are on Number 6.,E09_1_1.jpg,E09_1_2.jpg,Y
+39,4,9,2,1,2,ambiguous,earphones,bottles,12,6,3,5,below,The earphones below the bottles are on Number 6.,E09_2_1.jpg,E09_2_2.jpg,Y
+40,1,X25,9,,,,,,,5,,1,,On number 5 there is a phone.,X25_9_1.jpg,X25_9_2.jpg,N
+40,2,X25,9,,,,,,,5,,1,,On number 5 there is a phone.,X25_9_1.jpg,X25_9_2.jpg,N
+40,3,X25,9,,,,,,,5,,1,,On number 5 there is a phone.,X25_9_1.jpg,X25_9_2.jpg,N
+40,4,X25,9,,,,,,,5,,1,,On number 5 there is a phone.,X25_9_1.jpg,X25_9_2.jpg,N
+41,1,X05,9,,,,,,,1,,2,below,The lion and the slide are on the row below the battery.,X05_9_1.jpg,X05_9_2.jpg,N
+41,2,X05,9,,,,,,,1,,2,below,The lion and the slide are on the row  below the battery.,X05_9_1.jpg,X05_9_2.jpg,N
+41,3,X05,9,,,,,,,1,,2,below,The lion and the slide are on the row  below the battery.,X05_9_1.jpg,X05_9_2.jpg,N
+41,4,X05,9,,,,,,,1,,2,below,The lion and the slide are on the row  below the battery.,X05_9_1.jpg,X05_9_2.jpg,N
+42,1,10,4,2,2,ambiguous,scissors,socks,1,5,4,1,next to,The scissors next to the socks are on Number 5.,E10_4_1.jpg,E10_4_2.jpg,Y
+42,2,10,1,1,1,unambiguous,scissors,sock,1,5,4,1,next to,The scissors next to the sock are on Number 5.,E10_1_1.jpg,E10_1_2.jpg,Y
+42,3,10,2,1,2,ambiguous,scissors,socks,1,5,4,1,next to,The scissors next to the socks are on Number 5.,E10_2_1.jpg,E10_2_2.jpg,Y
+42,4,10,3,2,1,unambiguous,scissors,sock,1,5,4,1,next to,The scissors next to the sock are on Number 5.,E10_3_1.jpg,E10_3_2.jpg,Y
+43,1,X56,9,,,,,,,3,,4,,"The pilot is below the carrot, and he is on number 6.",X56_9_1.jpg,X56_9_2.jpg,N
+43,2,X56,9,,,,,,,3,,4,,"The pilot is below the carrot, and he is on number 6.",X56_9_1.jpg,X56_9_2.jpg,N
+43,3,X56,9,,,,,,,3,,4,,"The pilot is below the carrot, and he is on number 6.",X56_9_1.jpg,X56_9_2.jpg,N
+43,4,X56,9,,,,,,,3,,4,,"The pilot is below the carrot, and he is on number 6.",X56_9_1.jpg,X56_9_2.jpg,N
+44,1,X06,9,,,,,,,2,,1,above,"The bath tub is on number 2, on the row above the biscuit and the bouncer.",X06_9_1.jpg,X06_9_2.jpg,N
+44,2,X06,9,,,,,,,2,,1,above,"The bath tub is on number 2, on the row above the biscuit and the bouncer.",X06_9_1.jpg,X06_9_2.jpg,N
+44,3,X06,9,,,,,,,2,,1,above,"The bath tub is on number 2, on the row above the biscuit and the bouncer.",X06_9_1.jpg,X06_9_2.jpg,N
+44,4,X06,9,,,,,,,2,,1,above,"The bath tub is on number 2, on the row above the biscuit and the bouncer.",X06_9_1.jpg,X06_9_2.jpg,N
+45,1,11,2,1,2,ambiguous,sunglasses,microphones,8,6,3,5,below,The sunglasses below the microphones are on Number 6.,E11_2_1.jpg,E11_2_2.jpg,Y
+45,2,11,3,2,1,unambiguous,sunglasses,microphone,8,6,3,5,below,The sunglasses below the microphone are on Number 6.,E11_3_1.jpg,E11_3_2.jpg,Y
+45,3,11,4,2,2,ambiguous,sunglasses,microphones,8,6,3,5,below,The sunglasses below the microphones are on Number 6.,E11_4_1.jpg,E11_4_2.jpg,Y
+45,4,11,1,1,1,unambiguous,sunglasses,microphone,8,6,3,5,below,The sunglasses below the microphone are on Number 6.,E11_1_1.jpg,E11_1_2.jpg,Y
+46,1,X20,9,,,,,,,5,,1,next to,The diamond is next to the heart.,X20_9_1.jpg,X20_9_2.jpg,N
+46,2,X20,9,,,,,,,5,,1,next to,The diamond is next to the heart.,X20_9_1.jpg,X20_9_2.jpg,N
+46,3,X20,9,,,,,,,5,,1,next to,The diamond is next to the heart.,X20_9_1.jpg,X20_9_2.jpg,N
+46,4,X20,9,,,,,,,5,,1,next to,The diamond is next to the heart.,X20_9_1.jpg,X20_9_2.jpg,N
+50,1,X59,9,,,,,,,6,,1,above,"The musician is on number 3, and he is above the scarf.",X59_9_1.jpg,X59_9_2.jpg,N
+50,2,X59,9,,,,,,,6,,1,above,"The musician is on number 4, and he is above the scarf.",X59_9_1.jpg,X59_9_2.jpg,N
+50,3,X59,9,,,,,,,6,,1,above,"The musician is on number 5, and he is above the scarf.",X59_9_1.jpg,X59_9_2.jpg,N
+50,4,X59,9,,,,,,,6,,1,above,"The musician is on number 6, and he is above the scarf.",X59_9_1.jpg,X59_9_2.jpg,N
+51,1,12,1,1,1,unambiguous,jeans,comb,11,6,3,2,below,The jeans below the comb are on Number 6.,E12_1_1.jpg,E12_1_2.jpg,Y
+51,2,12,2,1,2,ambiguous,jeans,combs,11,6,3,2,below,The jeans below the combs are on Number 6.,E12_2_1.jpg,E12_2_2.jpg,Y
+51,3,12,3,2,1,unambiguous,jeans,comb,11,6,3,2,below,The jeans below the comb are on Number 6.,E12_3_1.jpg,E12_3_2.jpg,Y
+51,4,12,4,2,2,ambiguous,jeans,combs,11,6,3,2,below,The jeans below the combs are on Number 6.,E12_4_1.jpg,E12_4_2.jpg,Y
+52,1,X72,9,,,,,,,6,,2,next to,The kennel is next to the rooster and it is on number 6,X72_9_1.jpg,X72_9_2.jpg,N
+52,2,X72,9,,,,,,,6,,2,next to,The kennel is next to the rooster and it is on number 6,X72_9_1.jpg,X72_9_2.jpg,N
+52,3,X72,9,,,,,,,6,,2,next to,The kennel is next to the rooster and it is on number 6,X72_9_1.jpg,X72_9_2.jpg,N
+52,4,X72,9,,,,,,,6,,2,next to,The kennel is next to the rooster and it is on number 6,X72_9_1.jpg,X72_9_2.jpg,N
+53,1,X14,9,,,,,,,6,,3,,On number 6 there is a magician.,X14_9_1.jpg,X14_9_2.jpg,N
+53,2,X14,9,,,,,,,6,,3,,On number 6 there is a magician.,X14_9_1.jpg,X14_9_2.jpg,N
+53,3,X14,9,,,,,,,6,,3,,On number 6 there is a magician.,X14_9_1.jpg,X14_9_2.jpg,N
+53,4,X14,9,,,,,,,6,,3,,On number 6 there is a magician.,X14_9_1.jpg,X14_9_2.jpg,N
+54,1,13,2,1,2,ambiguous,stairs,soaps,9,5,3,1,below,The stairs below the soaps are on Number 5.,E13_2_1.jpg,E13_2_2.jpg,Y
+54,2,13,3,2,1,unambiguous,stairs,soap,9,5,3,1,below,The stairs below the soap are on Number 5.,E13_3_1.jpg,E13_3_2.jpg,Y
+54,3,13,4,2,2,ambiguous,stairs,soaps,9,5,3,1,below,The stairs below the soaps are on Number 5.,E13_4_1.jpg,E13_4_2.jpg,Y
+54,4,13,1,1,1,unambiguous,stairs,soap,9,5,3,1,below,The stairs below the soap are on Number 5.,E13_1_1.jpg,E13_1_2.jpg,Y
+55,1,X65,9,,,,,,,3,,2,,There is a cake on number 3.,X65_9_1.jpg,X65_9_2.jpg,N
+55,2,X65,9,,,,,,,3,,2,,There is a cake on number 3.,X65_9_1.jpg,X65_9_2.jpg,N
+55,3,X65,9,,,,,,,3,,2,,There is a cake on number 3.,X65_9_1.jpg,X65_9_2.jpg,N
+55,4,X65,9,,,,,,,3,,2,,There is a cake on number 3.,X65_9_1.jpg,X65_9_2.jpg,N
+56,1,X18,9,,,,,,,1,,2,above,"The bee is on number 1, on the row above the police man and the chocolate.",X18_9_1.jpg,X18_9_2.jpg,N
+56,2,X18,9,,,,,,,1,,2,above,"The bee is on number 1, on the row above the police man and the chocolate.",X18_9_1.jpg,X18_9_2.jpg,N
+56,3,X18,9,,,,,,,1,,2,above,"The bee is on number 1, on the row above the police man and the chocolate.",X18_9_1.jpg,X18_9_2.jpg,N
+56,4,X18,9,,,,,,,1,,2,above,"The bee is on number 1, on the row above the police man and the chocolate.",X18_9_1.jpg,X18_9_2.jpg,N
+57,1,14,3,2,1,unambiguous,glasses,envelope,4,4,2,6,below,The glasses below the envelope are on Number 4.,E14_3_1.jpg,E14_3_2.jpg,Y
+57,2,14,4,2,2,ambiguous,glasses,envelopes,4,4,2,6,below,The glasses below the envelopes are on Number 4.,E14_4_1.jpg,E14_4_2.jpg,Y
+57,3,14,1,1,1,unambiguous,glasses,envelope,4,4,2,6,below,The glasses below the envelope are on Number 4.,E14_1_1.jpg,E14_1_2.jpg,Y
+57,4,14,2,1,2,ambiguous,glasses,envelopes,4,4,2,6,below,The glasses below the envelopes are on Number 4.,E14_2_1.jpg,E14_2_2.jpg,Y
+58,1,X37,9,,,,,,,3,,1,,On number 3 there is a post it.,X37_9_1.jpg,X37_9_2.jpg,N
+58,2,X37,9,,,,,,,3,,1,,On number 3 there is a post it.,X37_9_1.jpg,X37_9_2.jpg,N
+58,3,X37,9,,,,,,,3,,1,,On number 3 there is a post it.,X37_9_1.jpg,X37_9_2.jpg,N
+58,4,X37,9,,,,,,,3,,1,,On number 3 there is a post it.,X37_9_1.jpg,X37_9_2.jpg,N
+59,1,X38,9,,,,,,,1,,4,below,"The panda is on number 5, on the row below the sponge and the koala.",X38_9_1.jpg,X38_9_2.jpg,N
+59,2,X38,9,,,,,,,1,,4,below,"The panda is on number 5, on the row below the sponge and the koala.",X38_9_1.jpg,X38_9_2.jpg,N
+59,3,X38,9,,,,,,,1,,4,below,"The panda is on number 5, on the row below the sponge and the koala.",X38_9_1.jpg,X38_9_2.jpg,N
+59,4,X38,9,,,,,,,1,,4,below,"The panda is on number 5, on the row below the sponge and the koala.",X38_9_1.jpg,X38_9_2.jpg,N
+60,1,15,4,2,2,ambiguous,bagpipes,chairs,10,2,1,5,next to,The bagpipes next to the chairs are on Number 2.,E15_4_1.jpg,E15_4_2.jpg,Y
+60,2,15,1,1,1,unambiguous,bagpipes,chair,10,2,1,5,next to,The bagpipes next to the chair are on Number 2.,E15_1_1.jpg,E15_1_2.jpg,Y
+60,3,15,2,1,2,ambiguous,bagpipes,chairs,10,2,1,5,next to,The bagpipes next to the chairs are on Number 2.,E15_2_1.jpg,E15_2_2.jpg,Y
+60,4,15,3,2,1,unambiguous,bagpipes,chair,10,2,1,5,next to,The bagpipes next to the chair are on Number 2.,E15_3_1.jpg,E15_3_2.jpg,Y
+61,1,X36,9,,,,,,,4,,5,above,The horse and the computer are on the row above the orange.,X36_9_1.jpg,X36_9_2.jpg,N
+61,2,X36,9,,,,,,,4,,5,above,The horse and the computer are on the row above the orange.,X36_9_1.jpg,X36_9_2.jpg,N
+61,3,X36,9,,,,,,,4,,5,above,The horse and the computer are on the row above the orange.,X36_9_1.jpg,X36_9_2.jpg,N
+61,4,X36,9,,,,,,,4,,5,above,The horse and the computer are on the row above the orange.,X36_9_1.jpg,X36_9_2.jpg,N
+62,1,X33,9,,,,,,,3,,1,below,"The monk is on number 3, on the row below the volley player and the prune.",X33_9_1.jpg,X33_9_2.jpg,N
+62,2,X33,9,,,,,,,3,,1,below,"The monk is on number 3, on the row below the volley player and the prune.",X33_9_1.jpg,X33_9_2.jpg,N
+62,3,X33,9,,,,,,,3,,1,below,"The monk is on number 3, on the row below the volley player and the prune.",X33_9_1.jpg,X33_9_2.jpg,N
+62,4,X33,9,,,,,,,3,,1,below,"The monk is on number 3, on the row below the volley player and the prune.",X33_9_1.jpg,X33_9_2.jpg,N
+66,1,16,1,1,1,unambiguous,pliers,tulip,14,1,4,5,above,The pliers above the tulip are on Number 1.,E16_1_1.jpg,E16_1_2.jpg,Y
+66,2,16,2,1,2,ambiguous,pliers,tulips,14,1,4,5,above,The pliers above the tulips are on Number 1.,E16_2_1.jpg,E16_2_2.jpg,Y
+66,3,16,3,2,1,unambiguous,pliers,tulip,14,1,4,5,above,The pliers above the tulip are on Number 1.,E16_3_1.jpg,E16_3_2.jpg,Y
+66,4,16,4,2,2,ambiguous,pliers,tulips,14,1,4,5,above,The pliers above the tulips are on Number 1.,E16_4_1.jpg,E16_4_2.jpg,Y
+67,1,X34,9,,,,,,,2,,6,below,"The harp is on number 4, on the row below the pigeon.",X34_9_1.jpg,X34_9_2.jpg,N
+67,2,X34,9,,,,,,,2,,6,below,"The harp is on number 4, on the row below the pigeon.",X34_9_1.jpg,X34_9_2.jpg,N
+67,3,X34,9,,,,,,,2,,6,below,"The harp is on number 4, on the row below the pigeon.",X34_9_1.jpg,X34_9_2.jpg,N
+67,4,X34,9,,,,,,,2,,6,below,"The harp is on number 4, on the row below the pigeon.",X34_9_1.jpg,X34_9_2.jpg,N
+68,1,X55,9,,,,,,,3,,4,,There is a pinappele on number 3.,X55_9_1.jpg,X55_9_2.jpg,N
+68,2,X55,9,,,,,,,3,,4,,There is a pinappele on number 3.,X55_9_1.jpg,X55_9_2.jpg,N
+68,3,X55,9,,,,,,,3,,4,,There is a pinappele on number 3.,X55_9_1.jpg,X55_9_2.jpg,N
+68,4,X55,9,,,,,,,3,,4,,There is a pinappele on number 3.,X55_9_1.jpg,X55_9_2.jpg,N
+69,1,17,4,2,2,ambiguous,headphones,organges,7,2,5,4,above,The headphones above the organges are on Number 2.,E17_4_1.jpg,E17_4_2.jpg,Y
+69,2,17,1,1,1,unambiguous,headphones,orange,7,2,5,4,above,The headphones above the orange are on Number 2.,E17_1_1.jpg,E17_1_2.jpg,Y
+69,3,17,2,1,2,ambiguous,headphones,organges,7,2,5,4,above,The headphones above the organges are on Number 2.,E17_2_1.jpg,E17_2_2.jpg,Y
+69,4,17,3,2,1,unambiguous,headphones,orange,7,2,5,4,above,The headphones above the orange are on Number 2.,E17_3_1.jpg,E17_3_2.jpg,Y
+70,1,X44,9,,,,,,,1,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
+70,2,X44,9,,,,,,,1,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
+70,3,X44,9,,,,,,,1,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
+70,4,X44,9,,,,,,,1,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
+71,1,X58,9,,,,,,,3,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
+71,2,X58,9,,,,,,,3,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
+71,3,X58,9,,,,,,,3,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
+71,4,X58,9,,,,,,,3,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
+72,1,18,1,1,1,unambiguous,shears,coat,15,4,1,6,below,The shears below the coat are on Number 4.,E18_1_1.jpg,E18_1_2.jpg,Y
+72,2,18,2,1,2,ambiguous,shears,coats,15,4,1,6,below,The shears below the coats are on Number 4.,E18_2_1.jpg,E18_2_2.jpg,Y
+72,3,18,3,2,1,unambiguous,shears,coat,15,4,1,6,below,The shears below the coat are on Number 4.,E18_3_1.jpg,E18_3_2.jpg,Y
+72,4,18,4,2,2,ambiguous,shears,coats,15,4,1,6,below,The shears below the coats are on Number 4.,E18_4_1.jpg,E18_4_2.jpg,Y
+73,1,X47,9,,,,,,,5,,3,,The gift is on number 5.,X47_9_1.jpg,X47_9_2.jpg,N
+73,2,X47,9,,,,,,,5,,3,,The gift is on number 5.,X47_9_1.jpg,X47_9_2.jpg,N
+73,3,X47,9,,,,,,,5,,3,,The gift is on number 5.,X47_9_1.jpg,X47_9_2.jpg,N
+73,4,X47,9,,,,,,,5,,3,,The gift is on number 5.,X47_9_1.jpg,X47_9_2.jpg,N
+74,1,X52,9,,,,,,,5,,6,below,"On the row below the goat, there is a dog and it is on number 5.",X52_9_1.jpg,X52_9_2.jpg,N
+74,2,X52,9,,,,,,,5,,6,below,"On the row below the goat, there is a dog and it is on number 5.",X52_9_1.jpg,X52_9_2.jpg,N
+74,3,X52,9,,,,,,,5,,6,below,"On the row below the goat, there is a dog and it is on number 5.",X52_9_1.jpg,X52_9_2.jpg,N
+74,4,X52,9,,,,,,,5,,6,below,"On the row below the goat, there is a dog and it is on number 5.",X52_9_1.jpg,X52_9_2.jpg,N
+75,1,19,3,2,1,unambiguous,tongs,broom,16,3,6,2,above,The tongs above the broom are on Number 3.,E19_3_1.jpg,E19_3_2.jpg,
+75,2,19,4,2,2,ambiguous,tongs,brooms,16,3,6,2,above,The tongs above the brooms are on Number 3.,E19_4_1.jpg,E19_4_2.jpg,
+75,3,19,1,1,1,unambiguous,tongs,broom,16,3,6,2,above,The tongs above the broom are on Number 3.,E19_1_1.jpg,E19_1_2.jpg,
+75,4,19,2,1,2,ambiguous,tongs,brooms,16,3,6,2,above,The tongs above the brooms are on Number 3.,E19_2_1.jpg,E19_2_2.jpg,
+76,1,X49,9,,,,,,,6,,4,below,"The refrigerator is on number 6, below the ant.",X49_9_1.jpg,X49_9_2.jpg,N
+76,2,X49,9,,,,,,,6,,4,below,"The refrigerator is on number 6, below the ant.",X49_9_1.jpg,X49_9_2.jpg,N
+76,3,X49,9,,,,,,,6,,4,below,"The refrigerator is on number 6, below the ant.",X49_9_1.jpg,X49_9_2.jpg,N
+76,4,X49,9,,,,,,,6,,4,below,"The refrigerator is on number 6, below the ant.",X49_9_1.jpg,X49_9_2.jpg,N
+77,1,X48,9,,,,,,,1,,2,next to,"The baby is on number 1, and it is on the same row as the calculator.",X48_9_1.jpg,X48_9_2.jpg,N
+77,2,X48,9,,,,,,,1,,2,next to,"The baby is on number 1, and it is on the same row as the calculator.",X48_9_1.jpg,X48_9_2.jpg,N
+77,3,X48,9,,,,,,,1,,2,next to,"The baby is on number 1, and it is on the same row as the calculator.",X48_9_1.jpg,X48_9_2.jpg,N
+77,4,X48,9,,,,,,,1,,2,next to,"The baby is on number 1, and it is on the same row as the calculator.",X48_9_1.jpg,X48_9_2.jpg,N
+78,1,20,2,1,2,ambiguous,tights,apples,6,2,6,4,above,The tights above the apples are on Number 2.,E20_2_1.jpg,E20_2_2.jpg,Y
+78,2,20,3,2,1,unambiguous,tights,apple,6,2,6,4,above,The tights above the apple are on Number 2.,E20_3_1.jpg,E20_3_2.jpg,Y
+78,3,20,4,2,2,ambiguous,tights,apples,6,2,6,4,above,The tights above the apples are on Number 2.,E20_4_1.jpg,E20_4_2.jpg,Y
+78,4,20,1,1,1,unambiguous,tights,apple,6,2,6,4,above,The tights above the apple are on Number 2.,E20_1_1.jpg,E20_1_2.jpg,Y
+79,1,X35,9,,,,,,,5,,1,below,"The cow is on number 5, and it is on the row below the doctor.",X35_9_1.jpg,X35_9_2.jpg,N
+79,2,X35,9,,,,,,,5,,1,below,"The cow is on number 5, and it is on the row below the doctor.",X35_9_1.jpg,X35_9_2.jpg,N
+79,3,X35,9,,,,,,,5,,1,below,"The cow is on number 5, and it is on the row below the doctor.",X35_9_1.jpg,X35_9_2.jpg,N
+79,4,X35,9,,,,,,,5,,1,below,"The cow is on number 5, and it is on the row below the doctor.",X35_9_1.jpg,X35_9_2.jpg,N
+80,1,X50,9,,,,,,,5,,6,,There is a CD on number 5.,X50_9_1.jpg,X50_9_2.jpg,N
+80,2,X50,9,,,,,,,5,,6,,There is a CD on number 5.,X50_9_1.jpg,X50_9_2.jpg,N
+80,3,X50,9,,,,,,,5,,6,,There is a CD on number 5.,X50_9_1.jpg,X50_9_2.jpg,N
+80,4,X50,9,,,,,,,5,,6,,There is a CD on number 5.,X50_9_1.jpg,X50_9_2.jpg,N
+81,1,21,4,2,2,ambiguous,goggles,roses,13,4,2,6,below,The goggles below the roses are on Number 4.,E21_4_1.jpg,E21_4_2.jpg,Y
+81,2,21,1,1,1,unambiguous,goggles,rose,13,4,2,6,below,The goggles below the rose are on Number 4.,E21_1_1.jpg,E21_1_2.jpg,Y
+81,3,21,2,1,2,ambiguous,goggles,roses,13,4,2,6,below,The goggles below the roses are on Number 4.,E21_2_1.jpg,E21_2_2.jpg,Y
+81,4,21,3,2,1,unambiguous,goggles,rose,13,4,2,6,below,The goggles below the rose are on Number 4.,E21_3_1.jpg,E21_3_2.jpg,Y
+83,1,X60,9,,,,,,,3,,5,above,The pirate is on number 3 above the door.,X60_9_1.jpg,X60_9_2.jpg,N
+83,2,X60,9,,,,,,,3,,5,above,The pirate is on number 4 above the door.,X60_9_1.jpg,X60_9_2.jpg,N
+83,3,X60,9,,,,,,,3,,5,above,The pirate is on number 5 above the door.,X60_9_1.jpg,X60_9_2.jpg,N
+83,4,X60,9,,,,,,,3,,5,above,The pirate is on number 6 above the door.,X60_9_1.jpg,X60_9_2.jpg,N
+84,1,22,3,2,1,unambiguous,trousers,violin,3,5,6,3,next to,The trousers next to the violin are on Number 5.,E22_3_1.jpg,E22_3_2.jpg,Y
+84,2,22,4,2,2,ambiguous,trousers,violins,3,5,6,3,next to,The trousers next to the violins are on Number 5.,E22_4_1.jpg,E22_4_2.jpg,Y
+84,3,22,1,1,1,unambiguous,trousers,violin,3,5,6,3,next to,The trousers next to the violin are on Number 5.,E22_1_1.jpg,E22_1_2.jpg,Y
+84,4,22,2,1,2,ambiguous,trousers,violins,3,5,6,3,next to,The trousers next to the violins are on Number 5.,E22_2_1.jpg,E22_2_2.jpg,Y
+91,1,X46,9,,,,,,,1,,2,below,The cover is on the row below the swimmer and the viking.,X46_9_1.jpg,X46_9_2.jpg,N
+91,2,X46,9,,,,,,,1,,2,below,The cover is on the row below the swimmer and the viking.,X46_9_1.jpg,X46_9_2.jpg,N
+91,3,X46,9,,,,,,,1,,2,below,The cover is on the row below the swimmer and the viking.,X46_9_1.jpg,X46_9_2.jpg,N
+91,4,X46,9,,,,,,,1,,2,below,The cover is on the row below the swimmer and the viking.,X46_9_1.jpg,X46_9_2.jpg,N
+92,1,X62,9,,,,,,,5,,3,,The snake is on number 5.,X62_9_1.jpg,X62_9_2.jpg,N
+92,2,X62,9,,,,,,,5,,3,,The snake is on number 5.,X62_9_1.jpg,X62_9_2.jpg,N
+92,3,X62,9,,,,,,,5,,3,,The snake is on number 5.,X62_9_1.jpg,X62_9_2.jpg,N
+92,4,X62,9,,,,,,,5,,3,,The snake is on number 5.,X62_9_1.jpg,X62_9_2.jpg,N
+93,1,23,2,1,2,ambiguous,binoculars,guitars,2,3,2,4,next to,The binoculars next to the guitars are on Number 3.,E23_2_1.jpg,E23_2_2.jpg,Y
+93,2,23,3,2,1,unambiguous,binoculars,guitar,2,3,2,4,next to,The binoculars next to the guitar are on Number 3.,E23_3_1.jpg,E23_3_2.jpg,Y
+93,3,23,4,2,2,ambiguous,binoculars,guitars,2,3,2,4,next to,The binoculars next to the guitars are on Number 3.,E23_4_1.jpg,E23_4_2.jpg,Y
+93,4,23,1,1,1,unambiguous,binoculars,guitar,2,3,2,4,next to,The binoculars next to the guitar are on Number 3.,E23_1_1.jpg,E23_1_2.jpg,Y
+94,1,X43,9,,,,,,,6,,5,above,The umbrella is above the carafe.,X43_9_1.jpg,X43_9_2.jpg,N
+94,2,X43,9,,,,,,,6,,5,above,The umbrella is above the carafe.,X43_9_1.jpg,X43_9_2.jpg,N
+94,3,X43,9,,,,,,,6,,5,above,The umbrella is above the carafe.,X43_9_1.jpg,X43_9_2.jpg,N
+94,4,X43,9,,,,,,,6,,5,above,The umbrella is above the carafe.,X43_9_1.jpg,X43_9_2.jpg,N
+95,1,X64,9,,,,,,,1,,6,,There is an elephant on number 1.,X64_9_1.jpg,X64_9_2.jpg,N
+95,2,X64,9,,,,,,,1,,6,,There is an elephant on number 1.,X64_9_1.jpg,X64_9_2.jpg,N
+95,3,X64,9,,,,,,,1,,6,,There is an elephant on number 1.,X64_9_1.jpg,X64_9_2.jpg,N
+95,4,X64,9,,,,,,,1,,6,,There is an elephant on number 1.,X64_9_1.jpg,X64_9_2.jpg,N
+96,1,24,1,1,1,unambiguous,sunglasses,barrel,8,2,5,3,above,The sunglasses above the barrel are on Number 2.,E24_1_1.jpg,E24_1_2.jpg,Y
+96,2,24,2,1,2,ambiguous,sunglasses,barrels,8,2,5,3,above,The sunglasses above the barrels are on Number 2.,E24_2_1.jpg,E24_2_2.jpg,Y
+96,3,24,3,2,1,unambiguous,sunglasses,barrel,8,2,5,3,above,The sunglasses above the barrel are on Number 2.,E24_3_1.jpg,E24_3_2.jpg,Y
+96,4,24,4,2,2,ambiguous,sunglasses,barrels,8,2,5,3,above,The sunglasses above the barrels are on Number 2.,E24_4_1.jpg,E24_4_2.jpg,Y
+97,1,X63,9,,,,,,,5,,1,,The bus is on number 5.,X63_9_1.jpg,X63_9_2.jpg,N
+97,2,X63,9,,,,,,,5,,1,,The bus is on number 5.,X63_9_1.jpg,X63_9_2.jpg,N
+97,3,X63,9,,,,,,,5,,1,,The bus is on number 5.,X63_9_1.jpg,X63_9_2.jpg,N
+97,4,X63,9,,,,,,,5,,1,,The bus is on number 5.,X63_9_1.jpg,X63_9_2.jpg,N
+98,1,X71,9,,,,,,,3,,5,above,"The mug is on number 3, and it is above the pig.",X71_9_1.jpg,X71_9_2.jpg,N
+98,2,X71,9,,,,,,,3,,5,above,"The mug is on number 3, and it is above the pig.",X71_9_1.jpg,X71_9_2.jpg,N
+98,3,X71,9,,,,,,,3,,5,above,"The mug is on number 3, and it is above the pig.",X71_9_1.jpg,X71_9_2.jpg,N
+98,4,X71,9,,,,,,,3,,5,above,"The mug is on number 3, and it is above the pig.",X71_9_1.jpg,X71_9_2.jpg,N
+99,1,25,3,2,1,unambiguous,stairs,tie,9,2,1,4,next to,The stairs next to the tie are on Number 2.,E25_3_1.jpg,E25_3_2.jpg,Y
+99,2,25,4,2,2,ambiguous,stairs,ties,9,2,1,4,next to,The stairs next to the ties are on Number 2.,E25_4_1.jpg,E25_4_2.jpg,Y
+99,3,25,1,1,1,unambiguous,stairs,tie,9,2,1,4,next to,The stairs next to the tie are on Number 2.,E25_1_1.jpg,E25_1_2.jpg,Y
+99,4,25,2,1,2,ambiguous,stairs,ties,9,2,1,4,next to,The stairs next to the ties are on Number 2.,E25_2_1.jpg,E25_2_2.jpg,Y
+101,1,X45,9,,,,,,,3,,2,above,"The walnut is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+101,2,X45,9,,,,,,,3,,2,above,"The noix is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+101,3,X45,9,,,,,,,3,,2,above,"The noix is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+101,4,X45,9,,,,,,,3,,2,above,"The noix is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+103,1,X66,9,,,,,,,2,,3,,The rugbyman is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N
+103,2,X66,9,,,,,,,2,,3,,The rugbyman is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N
+103,3,X66,9,,,,,,,2,,3,,The rugbyman is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N
+103,4,X66,9,,,,,,,2,,3,,The rugbyman is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N
+108,1,26,4,2,2,ambiguous,earphones,buckets,12,1,4,3,above,The earphones above the buckets are on Number 1.,E26_4_1.jpg,E26_4_2.jpg,Y
+108,2,26,1,1,1,unambiguous,earphones,bucket,12,1,4,3,above,The earphones above the bucket are on Number 1.,E26_1_1.jpg,E26_1_2.jpg,Y
+108,3,26,2,1,2,ambiguous,earphones,buckets,12,1,4,3,above,The earphones above the buckets are on Number 1.,E26_2_1.jpg,E26_2_2.jpg,Y
+108,4,26,3,2,1,unambiguous,earphones,bucket,12,1,4,3,above,The earphones above the bucket are on Number 1.,E26_3_1.jpg,E26_3_2.jpg,Y
+109,1,X67,9,,,,,,,4,,1,next to,"The pin is on number 4, on the same line of the hunter.",X67_9_1.jpg,X67_9_2.jpg,N
+109,2,X67,9,,,,,,,4,,1,next to,"The pin is on number 4, on the same line of the hunter.",X67_9_1.jpg,X67_9_2.jpg,N
+109,3,X67,9,,,,,,,4,,1,next to,"The pin is on number 4, on the same line of the hunter.",X67_9_1.jpg,X67_9_2.jpg,N
+109,4,X67,9,,,,,,,4,,1,next to,"The pin is on number 4, on the same line of the hunter.",X67_9_1.jpg,X67_9_2.jpg,N
+110,1,X70,9,,,,,,,1,,5,,The microphone is on number 1.,X70_9_1.jpg,X70_9_2.jpg,N
+110,2,X70,9,,,,,,,1,,5,,The microphone is on number 1.,X70_9_1.jpg,X70_9_2.jpg,N
+110,3,X70,9,,,,,,,1,,5,,The microphone is on number 1.,X70_9_1.jpg,X70_9_2.jpg,N
+110,4,X70,9,,,,,,,1,,5,,The microphone is on number 1.,X70_9_1.jpg,X70_9_2.jpg,N
+111,1,27,1,1,1,unambiguous,scissors,cup,1,6,3,4,below,The scissors below the cup are on Number 6.,E27_1_1.jpg,E27_1_2.jpg,Y
+111,2,27,2,1,2,ambiguous,scissors,cups,1,6,3,4,below,The scissors below the cups are on Number 6.,E27_2_1.jpg,E27_2_2.jpg,Y
+111,3,27,3,2,1,unambiguous,scissors,cup,1,6,3,4,below,The scissors below the cup are on Number 6.,E27_3_1.jpg,E27_3_2.jpg,Y
+111,4,27,4,2,2,ambiguous,scissors,cups,1,6,3,4,below,The scissors below the cups are on Number 6.,E27_4_1.jpg,E27_4_2.jpg,Y
+112,1,X07,9,,,,,,,2,,5,next to,"The nail is on number 3, next to the indian.",X07_9_1.jpg,X07_9_2.jpg,N
+112,2,X07,9,,,,,,,2,,5,next to,"The nail is on number 3, next to the indian.",X07_9_1.jpg,X07_9_2.jpg,N
+112,3,X07,9,,,,,,,2,,5,next to,"The nail is on number 3, next to the indian.",X07_9_1.jpg,X07_9_2.jpg,N
+112,4,X07,9,,,,,,,2,,5,next to,"The nail is on number 3, next to the indian.",X07_9_1.jpg,X07_9_2.jpg,N
+115,1,28,2,1,2,ambiguous,shears,carrots,15,3,4,2,above,The shears above the carrots are on Number 3.,E28_2_1.jpg,E28_2_2.jpg,Y
+115,2,28,3,2,1,unambiguous,shears,carrot,15,3,4,2,above,The shears above the carrot are on Number 3.,E28_3_1.jpg,E28_3_2.jpg,Y
+115,3,28,4,2,2,ambiguous,shears,carrots,15,3,4,2,above,The shears above the carrots are on Number 3.,E28_4_1.jpg,E28_4_2.jpg,Y
+115,4,28,1,1,1,unambiguous,shears,carrot,15,3,4,2,above,The shears above the carrot are on Number 3.,E28_1_1.jpg,E28_1_2.jpg,Y
+116,1,X74,9,,,,,,,2,,3,,"On number 2, there is a stool.",X74_9_1.jpg,X74_9_2.jpg,N
+116,2,X74,9,,,,,,,2,,3,,"On number 2, there is a stool.",X74_9_1.jpg,X74_9_2.jpg,N
+116,3,X74,9,,,,,,,2,,3,,"On number 2, there is a stool.",X74_9_1.jpg,X74_9_2.jpg,N
+116,4,X74,9,,,,,,,2,,3,,"On number 2, there is a stool.",X74_9_1.jpg,X74_9_2.jpg,N
+119,1,X75,9,,,,,,,2,,3,above,"The lock is on number 2, on the row above the shopping cart and the whistle.",X75_9_1.jpg,X75_9_2.jpg,N
+119,2,X75,9,,,,,,,2,,3,above,"The lock is on number 2, on the row above the shopping cart and the whistle.",X75_9_1.jpg,X75_9_2.jpg,N
+119,3,X75,9,,,,,,,2,,3,above,"The lock is on number 2, on the row above the shopping cart and the whistle.",X75_9_1.jpg,X75_9_2.jpg,N
+119,4,X75,9,,,,,,,2,,3,above,"The lock is on number 2, on the row above the shopping cart and the whistle.",X75_9_1.jpg,X75_9_2.jpg,N
+122,1,29,4,2,2,ambiguous,pliers,leeks,14,5,6,3,next to,The pliers next to the leeks are on Number 5.,E29_4_1.jpg,E29_4_2.jpg,Y
+122,2,29,1,1,1,unambiguous,pliers,leek,14,5,6,3,next to,The pliers next to the leek are on Number 5.,E29_1_1.jpg,E29_1_2.jpg,Y
+122,3,29,2,1,2,ambiguous,pliers,leeks,14,5,6,3,next to,The pliers next to the leeks are on Number 5.,E29_2_1.jpg,E29_2_2.jpg,Y
+122,4,29,3,2,1,unambiguous,pliers,leek,14,5,6,3,next to,The pliers next to the leek are on Number 5.,E29_3_1.jpg,E29_3_2.jpg,Y
+123,1,X78,9,,,,,,,3,,2,above,"The candle is on number 3, above the beekeeper.",X78_9_1.jpg,X78_9_2.jpg,N
+123,2,X78,9,,,,,,,3,,2,above,"The candle is on number 3, above the beekeeper.",X78_9_1.jpg,X78_9_2.jpg,N
+123,3,X78,9,,,,,,,3,,2,above,"The candle is on number 3, above the beekeeper.",X78_9_1.jpg,X78_9_2.jpg,N
+123,4,X78,9,,,,,,,3,,2,above,"The candle is on number 3, above the beekeeper.",X78_9_1.jpg,X78_9_2.jpg,N
+125,1,X17,9,,,,,,,6,,1,,The charger is on number 6 and the patissier is on number 4.,X17_9_1.jpg,X17_9_2.jpg,N
+125,2,X17,9,,,,,,,6,,1,,The charger is on number 6 and the patissier is on number 4.,X17_9_1.jpg,X17_9_2.jpg,N
+125,3,X17,9,,,,,,,6,,1,,The charger is on number 6 and the patissier is on number 4.,X17_9_1.jpg,X17_9_2.jpg,N
+125,4,X17,9,,,,,,,6,,1,,The charger is on number 6 and the patissier is on number 4.,X17_9_1.jpg,X17_9_2.jpg,N
+126,1,30,2,1,2,ambiguous,shorts,cans,5,1,2,5,next to,The shorts next to the cans are on Number 1.,E30_2_1.jpg,E30_2_2.jpg,Y
+126,2,30,3,2,1,unambiguous,shorts,can,5,1,2,5,next to,The shorts next to the can are on Number 1.,E30_3_1.jpg,E30_3_2.jpg,Y
+126,3,30,4,2,2,ambiguous,shorts,cans,5,1,2,5,next to,The shorts next to the cans are on Number 1.,E30_4_1.jpg,E30_4_2.jpg,Y
+126,4,30,1,1,1,unambiguous,shorts,can,5,1,2,5,next to,The shorts next to the can are on Number 1.,E30_1_1.jpg,E30_1_2.jpg,Y
+127,1,X39,9,,,,,,,6,,2,below,The crown and the clown are on the row below the jester.,X39_9_1.jpg,X39_9_2.jpg,N
+127,2,X39,9,,,,,,,6,,2,below,The crown and the clown are on the row below the jester.,X39_9_1.jpg,X39_9_2.jpg,N
+127,3,X39,9,,,,,,,6,,2,below,The crown and the clown are on the row below the jester.,X39_9_1.jpg,X39_9_2.jpg,N
+127,4,X39,9,,,,,,,6,,2,below,The crown and the clown are on the row below the jester.,X39_9_1.jpg,X39_9_2.jpg,N
+129,1,31,1,1,1,unambiguous,goggles,trumpet,13,1,2,6,next to,The goggles next to the trumpet are on Number 1.,E31_1_1.jpg,E31_1_2.jpg,Y
+129,2,31,2,1,2,ambiguous,goggles,trumpets,13,1,2,6,next to,The goggles next to the trumpets are on Number 1.,E31_2_1.jpg,E31_2_2.jpg,Y
+129,3,31,3,2,1,unambiguous,goggles,trumpet,13,1,2,6,next to,The goggles next to the trumpet are on Number 1.,E31_3_1.jpg,E31_3_2.jpg,Y
+129,4,31,4,2,2,ambiguous,goggles,trumpets,13,1,2,6,next to,The goggles next to the trumpets are on Number 1.,E31_4_1.jpg,E31_4_2.jpg,Y
+130,1,X41,9,,,,,,,5,,2,,"On number 5, there is a helmet.",X41_9_1.jpg,X41_9_2.jpg,N
+130,2,X41,9,,,,,,,5,,2,,"On number 5, there is a helmet.",X41_9_1.jpg,X41_9_2.jpg,N
+130,3,X41,9,,,,,,,5,,2,,"On number 5, there is a helmet.",X41_9_1.jpg,X41_9_2.jpg,N
+130,4,X41,9,,,,,,,5,,2,,"On number 5, there is a helmet.",X41_9_1.jpg,X41_9_2.jpg,N
+131,1,X23,9,,,,,,,4,,3,below,"The screw is on number 4, and it is below the golfer.",X23_9_1.jpg,X23_9_2.jpg,N
+131,2,X23,9,,,,,,,4,,3,below,"The screw is on number 4, and it is below the golfer.",X23_9_1.jpg,X23_9_2.jpg,N
+131,3,X23,9,,,,,,,4,,3,below,"The screw is on number 4, and it is below the golfer.",X23_9_1.jpg,X23_9_2.jpg,N
+131,4,X23,9,,,,,,,4,,3,below,"The screw is on number 4, and it is below the golfer.",X23_9_1.jpg,X23_9_2.jpg,N
+132,1,32,3,2,1,unambiguous,bagpipes,fridge,10,1,4,3,above,The bagpipes above the fridge are on Number 1.,E32_3_1.jpg,E32_3_2.jpg,Y
+132,2,32,4,2,2,ambiguous,bagpipes,fridges,10,1,4,3,above,The bagpipes above the fridges are on Number 1.,E32_4_1.jpg,E32_4_2.jpg,Y
+132,3,32,1,1,1,unambiguous,bagpipes,fridge,10,1,4,3,above,The bagpipes above the fridge are on Number 1.,E32_1_1.jpg,E32_1_2.jpg,Y
+132,4,32,2,1,2,ambiguous,bagpipes,fridges,10,1,4,3,above,The bagpipes above the fridges are on Number 1.,E32_2_1.jpg,E32_2_2.jpg,Y

@@ -77,6 +77,7 @@ Template(
             .wait()
   )
   .log( "ID"     , getVar("ID")    )
+  )
 
 Template(
     GetTable("prac.csv")
@@ -90,7 +91,8 @@ Template(
                 .print()
             ,
             newImage("one", variable.firstDisplay)
-                .size(768,512)
+                .size(600,400)
+                .css("padding", "10px")
                 .settings.center()
                 .print()
             ,
@@ -120,7 +122,8 @@ Template(
                 .print()
             ,
             newImage("two", variable.secondDisplay)
-                .size(768,512)
+                .size(600,400)
+                .css("padding", "10px")
                 .settings.center()
                 .print()
             ,
@@ -147,11 +150,7 @@ Template(
   )
 
 newTrial("exp_start",
-        newText("<p>This is the end of the instructions. Please click on <strong>Start</strong> to start the experiment.</p>")
-            .settings.center()
-            .print()
-        ,
-        newText("<p>No instructions or examples will be provided during the experiment.</p>")
+        newText("<p>This is the end of the instructions. Please click on <strong>Start</strong> to start the experiment.</p><p>No instructions or examples will be provided during the experiment.</p>")
             .settings.center()
             .print()
         ,
@@ -163,13 +162,16 @@ newTrial("exp_start",
   
 Template(
     GetTable("fulldesign.csv")
-        .setGroupColumn("list"), variable =>
+        .setGroupColumn("list")
+        .filter(variable => variable.order < 50)
+        , variable =>
         newTrial( "exp_block1" ,
             newMediaRecorder("recorder", "audio")
                 .record()
             ,
             newImage("one", variable.firstDisplay)
-                .size(768,512)
+                .size(600,400)
+                .css("padding", "10px")
                 .settings.center()
                 .print()
             ,
@@ -185,7 +187,8 @@ Template(
             clear()
             ,
             newImage("two", variable.secondDisplay)
-                .size(768,512)
+                .size(600,400)
+                .css("padding", "10px")
                 .settings.center()
                 .print()
             ,
@@ -224,13 +227,16 @@ newTrial( "rest" ,
 
 Template(
     GetTable("fulldesign.csv")
-        .setGroupColumn("list"), variable =>
+        .setGroupColumn("list")
+        .filter(variable => variable.order > 49)
+        , variable =>
         newTrial( "exp_block2" ,
             newMediaRecorder("recorder", "audio")
                 .record()
             ,
             newImage("one", variable.firstDisplay)
-                .size(768,512)
+                .size(600,400)
+                .css("padding", "10px")
                 .settings.center()
                 .print()
             ,
@@ -246,7 +252,8 @@ Template(
             clear()
             ,
             newImage("two", variable.secondDisplay)
-                .size(768,512)
+                .size(600,400)
+                .css("padding", "10px")
                 .settings.center()
                 .print()
             ,

@@ -74,7 +74,8 @@ Template(
         newButton("Continue")
             .settings.center()
             .print()
-            .wait()
+            .wait(getHtml("information").test.complete()
+                .failure(getHtml("information").warn()))
   )
   .log( "ID"     , getVar("ID")    )
   )
@@ -86,7 +87,7 @@ Template(
             newMediaRecorder("recorder", "audio")
                 .record()
             ,
-            newText("inst_read", "<p>The sentence below the picture introduces the characters/objects. Please read the sentence out, then click on the sentence to proceed.</p>")
+            newText("inst_read", "<p>Please read the sentence aloud, then click on the sentence to proceed.</p>")
                 .settings.center()
                 .print()
             ,
@@ -107,17 +108,18 @@ Template(
             ,
             clear()
             ,
-            newText("<p>Please describe the new location of the character/object, starting with <strong>Now</strong>. For example, you could say:</p>")
+            newText("<p>In this example, you could say:</p>")
                 .settings.center()
                 .print()
             ,
             newText(variable.target1)
+                .bold()
                 .settings.after(newText("&nbsp;OR&nbsp;"))
-                .settings.after(newText(variable.target2))
+                .settings.after(newText(variable.target2).bold())
                 .settings.center()
                 .print()
             ,
-            newText("<p>You can use pronouns or nouns to describe this change. Feel free to vary your expressions.</p>")
+            newText("<p>Feel free to vary your expressions.</p>")
                 .settings.center()
                 .print()
             ,

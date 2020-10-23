@@ -31,10 +31,10 @@ order,list,item,condition,target_notional_num,competitor_num,ambiguity,target,co
 11,2,2,3,2,1,unambiguous,jeans,sofa,11,2,5,,3,above,The jeans above the sofa are on number 2.,E02_3_1.jpg,E02_3_2.jpg,Y
 11,3,2,4,2,2,ambiguous,jeans,sofas,11,2,5,,3,above,The jeans above the sofas are on number 2.,E02_4_1.jpg,E02_4_2.jpg,Y
 11,4,2,1,1,1,unambiguous,jeans,sofa,11,2,5,,3,above,The jeans above the sofa are on number 2.,E02_1_1.jpg,E02_1_2.jpg,Y
-12,1,X13,9,,,,,,,3,,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
-12,2,X13,9,,,,,,,3,,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
-12,3,X13,9,,,,,,,3,,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
-12,4,X13,9,,,,,,,3,,,2,,The comb is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,1,X13,9,,,,,,,3,,,2,,The queen is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,2,X13,9,,,,,,,3,,,2,,The queen is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,3,X13,9,,,,,,,3,,,2,,The queen is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
+12,4,X13,9,,,,,,,3,,,2,,The queen is on number 3.,X13_9_1.jpg,X13_9_2.jpg,N
 13,1,X27,9,,,,,,,6,3,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
 13,2,X27,9,,,,,,,6,3,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
 13,3,X27,9,,,,,,,6,3,,4,above,The olive is above the cat.,X27_9_1.jpg,X27_9_2.jpg,N
@@ -203,10 +203,10 @@ order,list,item,condition,target_notional_num,competitor_num,ambiguity,target,co
 54,2,17,1,1,1,unambiguous,headphones,orange,7,2,5,,4,above,The headphones above the orange are on number 2.,E17_1_1.jpg,E17_1_2.jpg,Y
 54,3,17,2,1,2,ambiguous,headphones,organges,7,2,5,,4,above,The headphones above the organges are on number 2.,E17_2_1.jpg,E17_2_2.jpg,Y
 54,4,17,3,2,1,unambiguous,headphones,orange,7,2,5,,4,above,The headphones above the orange are on number 2.,E17_3_1.jpg,E17_3_2.jpg,Y
-55,1,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
-55,2,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
-55,3,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
-55,4,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the pope.",X44_9_1.jpg,X44_9_2.jpg,N
+55,1,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the waiter.",X44_9_1.jpg,X44_9_2.jpg,N
+55,2,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the waiter.",X44_9_1.jpg,X44_9_2.jpg,N
+55,3,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the waiter.",X44_9_1.jpg,X44_9_2.jpg,N
+55,4,X44,9,,,,,,,1,5,,3,below,"The leaf is on number 6, on the row below the waiter.",X44_9_1.jpg,X44_9_2.jpg,N
 56,1,X58,9,,,,,,,3,5,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
 56,2,X58,9,,,,,,,3,5,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
 56,3,X58,9,,,,,,,3,5,,6,above,"The stapler is on number 3, on the row above the cowboy.",X58_9_1.jpg,X58_9_2.jpg,N
@@ -296,9 +296,9 @@ order,list,item,condition,target_notional_num,competitor_num,ambiguity,target,co
 77,3,25,1,1,1,unambiguous,stairs,tie,9,2,1,,4,next to,The stairs next to the tie are on number 2.,E25_1_1.jpg,E25_1_2.jpg,Y
 77,4,25,2,1,2,ambiguous,stairs,ties,9,2,1,,4,next to,The stairs next to the ties are on number 2.,E25_2_1.jpg,E25_2_2.jpg,Y
 78,1,X45,9,,,,,,,3,4,5,2,above,"The walnut is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
-78,2,X45,9,,,,,,,3,4,5,2,above,"The noix is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
-78,3,X45,9,,,,,,,3,4,5,2,above,"The noix is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
-78,4,X45,9,,,,,,,3,4,5,2,above,"The noix is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+78,2,X45,9,,,,,,,3,4,5,2,above,"The walnut is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+78,3,X45,9,,,,,,,3,4,5,2,above,"The walnut is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
+78,4,X45,9,,,,,,,3,4,5,2,above,"The walnut is on number 3, and it is on the row above the gladiator and the microwave.",X45_9_1.jpg,X45_9_2.jpg,N
 79,1,X66,9,,,,,,,2,4,,3,,The rugby player is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N
 79,2,X66,9,,,,,,,2,4,,3,,The rugby player is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N
 79,3,X66,9,,,,,,,2,4,,3,,The rugby player is on number 2.,X66_9_1.jpg,X66_9_2.jpg,N

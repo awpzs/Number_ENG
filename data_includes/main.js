@@ -1,10 +1,10 @@
 PennController.ResetPrefix(null); //Initiates PennController
 var showProgressBar = false;
-//PennController.DebugOff()
+PennController.DebugOff()
 PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG/main/images/")
 PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG/main/images_fillers/")
 
-Sequence( "information", "survey", "identification", "recording_information", "initRecorder", "instruction", "prac", "exp_start", "exp_block1", "rest", "exp_block2", "send", "final" )
+Sequence( "setcounter", "information", "survey", "identification", "recording_information", "initRecorder", "instruction", "prac", "exp_start", "exp_block1", "rest", "exp_block2", "send", "final" )
 
 PennController.SetCounter( "setcounter" )
 
@@ -22,6 +22,7 @@ newTrial( "information" ,
 newTrial( "survey" ,
     newHtml("questionnaire", "survey.html")
         .print()
+        .log()
     ,
     newButton("Start")
         .settings.center()
@@ -61,7 +62,7 @@ newTrial("recording_information" ,
         .wait()    
 )
 
-InitiateRecorder("https://langprolab/pcibex/index.php", "Please grant expt.pcibex.net access to your microphone.").label("initRecorder")
+InitiateRecorder("https://langprolab.stir.ac.uk/pcibex/index.php", "Please grant expt.pcibex.net access to your microphone.").label("initRecorder")
 
 Template(
     GetTable("instructions.csv")
@@ -165,7 +166,7 @@ newTrial("exp_start",
 Template(
     GetTable("fulldesign.csv")
         .setGroupColumn("list")
-        .filter(variable => variable.order < 50)
+        .filter(variable => variable.order < 44)
         , variable =>
         newTrial( "exp_block1" ,
             newMediaRecorder("recorder", "audio")
@@ -230,7 +231,7 @@ newTrial( "rest" ,
 Template(
     GetTable("fulldesign.csv")
         .setGroupColumn("list")
-        .filter(variable => variable.order > 49)
+        .filter(variable => variable.order > 43)
         , variable =>
         newTrial( "exp_block2" ,
             newMediaRecorder("recorder", "audio")
@@ -294,7 +295,7 @@ newTrial( "final"
         .settings.center()
         .print()
     ,
-    newText("<p><a href='https://stirling.sona-systems.com/webstudy_credit.aspx?experiment_id=1903&credit_token=73dbad39838a446598271bf8fdf6da8b&survey_code="+GetURLParameter("id")+"' href='_blank'>Click here to validate your participation and finish the experiment</a></p>")
+    newText("<p><a href='https://stirling.sona-systems.com/webstudy_credit.aspx?experiment_id=1949&credit_token=b48c76c8ce3b4b0b948c635266418bd1&survey_code="+GetURLParameter("id")+"' href='_blank'>Click here to validate your participation and finish the experiment</a></p>")
         .settings.center()
         .print()
     ,
